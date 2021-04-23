@@ -1,0 +1,26 @@
+{
+    "1":{
+        "value":"That's the badger!",
+        "alt":{
+            "start": "That's the ",
+            "end": "!",
+            "altWord": "badger"
+        }
+    },
+    "2":{
+        "value":"It's nothing to write home about.",
+        "alt":{
+            "start": "It's ",
+            "end": " to write home about.",
+            "altWord": "nothing"
+        }
+    },
+    "3":{
+        "value":"Piss on your chips.",
+        "alt":{
+            "start":"Piss on your ",
+            "end":".",
+            "altWord":"chips"
+        }
+    }
+}
