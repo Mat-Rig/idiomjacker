@@ -1,26 +1,248 @@
 {
     "1":{
         "value":"That's the badger!",
-        "alt":{
-            "start": "That's the ",
-            "end": "!",
-            "altWord": "badger"
-        }
+        "alt":["badger"],
+        "simultaneousAltNum": [1]
     },
     "2":{
         "value":"It's nothing to write home about.",
-        "alt":{
-            "start": "It's ",
-            "end": " to write home about.",
-            "altWord": "nothing"
-        }
+        "alt":["nothing", "home"],
+        "simultaneousAltNum": [1]
     },
     "3":{
-        "value":"Piss on your chips.",
-        "alt":{
-            "start":"Piss on your ",
-            "end":".",
-            "altWord":"chips"
-        }
+        "value":"Piss on someone's chips.",
+        "alt":["chips","Piss"],
+        "simultaneousAltNum": [1]
+    },
+    "4":{
+        "value":"Ruffle someone's feathers.",
+        "alt":["Ruffle","feathers"],
+        "simultaneousAltNum": [1]
+    },
+    "5":{
+        "value":"Keep someone on their toes.",
+        "alt":["Keep","toes"],
+        "simultaneousAltNum": [1]
+    },
+    "6":{
+        "value":"Pick someone's brain.",
+        "alt":["Pick","Brain"],
+        "simultaneousAltNum": [1]
+    },
+    "7":{
+        "value":"It hold water!",
+        "alt":["hold","water"],
+        "simultaneousAltNum": [1]
+    },
+    "8":{
+        "value":"That's water under the bridge.",
+        "alt":["water","under","bridge"],
+        "simultaneousAltNum": [1]
+    },
+    "9":{
+        "value":"New bloom sweeps clean.",
+        "alt":["New","bloom","sweeps","clean"],
+        "simultaneousAltNum": [1]
+    },
+    "10":{
+        "value":"Someone kicked the bucket.",
+        "alt":["kicked","bucket"],
+        "simultaneousAltNum": [1]
+    },
+    "11":{
+        "value":"On the same wavelength.",
+        "alt":["wavelength"],
+        "simultaneousAltNum": [1]
+    },
+    "12":{
+        "value":"It costs an arm and a leg.",
+        "alt":["arm","leg"],
+        "simultaneousAltNum": [2]
+    },
+    "13":{
+        "value":"Go cold turkey!",
+        "alt":["cold", "turkey"],
+        "simultaneousAltNum": [1] 
+    },
+    "14":{
+        "value":"Brush something off.",
+        "alt":["Brush"],
+        "simultaneousAltNum": [1]
+    },
+    "15":{
+        "value":"Someone is one egg short of a dozen.",
+        "alt":["egg","short","dozen"],
+        "simultaneousAltNum": [1]
+    },
+    "16":{
+        "value":"They're not the sharpest tools in the shed.",
+        "alt":["sharpest","tools","shed"],
+        "simultaneousAltNum": [1,2,3]
+    },
+    "17":{
+        "value":"They're not the brightest bulbs in the box.",
+        "alt":["brightest","bulbs","box"],
+        "simultaneousAltNum": [1,2,3],
+        "_comment": "this one can also be constrained on the first letter, or the sound (consonance?)"
+    },
+    "18":{
+        "value":"Now we're cooking with gaz!",
+        "alt":["cooking","gaz"],
+        "simultaneousAltNum": [1]
+    },
+    "19":{
+        "value":"They beat around the bush.",
+        "alt":["beat","around","bush"],
+        "simultaneousAltNum": [1],
+        "_comment": "potential constraint on b on both beat and bush"
+    },
+    "20":{
+        "value":"Sleeping with the fishes.",
+        "alt":["Sleeping","fishes"],
+        "simultaneousAltNum": [1]
+    },
+    "21":{
+        "value":"Taking the piss out of someone.",
+        "alt":["Taking","piss"],
+        "simultaneousAltNum": [1]
+    },
+    "22":{
+        "value":"If push come to shelf.",
+        "alt":["Push","shelf"],
+        "simultaneousAltNum": [1],
+        "_comment": "constraint on the sound 'sh'"
+    },
+    "23":{
+        "value":"Catching someone on the huff.",
+        "alt":["Catching","huff"],
+        "simultaneousAltNum": [1]
+    },
+    "24":{
+        "value":"The penny dropped.",
+        "alt":["penny","dropped"],
+        "simultaneousAltNum": [1]
+    },
+    "25":{
+        "value":"Someone heard it straight from the horse mouth.",
+        "alt":["heard","horse","mouth"],
+        "simultaneousAltNum": [1]
+    },    
+    "26":{
+        "value":"Have a frog in one's throat.",
+        "alt":["frog","throat"],
+        "simultaneousAltNum": [1]
+    },    
+    "27":{
+        "value":"Pulling someone's leg.",
+        "alt":["Pulling","leg"],
+        "simultaneousAltNum": [1]
+    },    
+    "28":{
+        "value":"Give someone both barrels.",
+        "alt":["Give","barrels"],
+        "simultaneousAltNum": [1]
+    },    
+    "29":{
+        "value":"Something came a cropper.",
+        "alt":["come","cropper"],
+        "simultaneousAltNum": [1]
+    },    
+    "30":{
+        "value":"All the bells and whistles.",
+        "alt":["bells","whistles"],
+        "simultaneousAltNum": [2]
+    },    
+    "31":{
+        "value":"Full shabang.",
+        "alt":[],
+        "simultaneousAltNum": [1],
+        "_comment":"this one is too good to be hijacked"
+    },
+    "32":{
+        "value":"The crux of the matter.",
+        "alt":["crux"],
+        "simultaneousAltNum": [1]
+    },
+    "33":{
+        "value":"Someone opened a can of worm.",
+        "alt":["can","worm"],
+        "simultaneousAltNum": [1]
+    },    
+    "34":{
+        "value":"Good night, sleep tight, don't let the bedbugs bite.",
+        "alt":["bedbugs"],
+        "simultaneousAltNum": [1],
+        "_comment": "constrain on the 'ight' sound"
+    },
+    "35":{
+        "value":"Bish, bash, bosh!",
+        "alt":["Bish","bash","bosh"],
+        "simultaneousAltNum": [3]
+    },    
+    "36":{
+        "value":"They make a rod for their own back.",
+        "alt":["make","rod","back"],
+        "simultaneousAltNum": [1]
+    },    
+    "37":{
+        "value":"Jack of all, master of none.",
+        "alt":["Jack","master"],
+        "simultaneousAltNum": [2]
+    },    
+    "38":{
+        "value":"Throw a spanner in the works.",
+        "alt":["Throw","spanner","works"],
+        "simultaneousAltNum": [1]
+    },    
+    "39":{
+        "value":"Pinch a loaf.",
+        "alt":["Pinch","loaf"],
+        "simultaneousAltNum": [1,2]
+    },    
+    "40":{
+        "value":"Be there or be square.",
+        "alt":["square"],
+        "simultaneousAltNum": [1]
+    },    
+    "41":{
+        "value":"That's the way the cookie crumbles.",
+        "alt":["cookie","crumbles"],
+        "simultaneousAltNum": [1]
+    },
+    "42":{
+        "value":"You're all bum and parsley.",
+        "alt":["bum","parsley"],
+        "simultaneousAltNum": [2]
+    },    
+    "43":{
+        "value":"Happy as a pig in a muck.",
+        "alt":["Happy","pig","muck"],
+        "simultaneousAltNum": [1]
+    },    
+    "44":{
+        "value":"Were ya born in a barn?",
+        "alt":["born","barn"],
+        "simultaneousAltNum": [1],
+        "_comment": "constraint on the letter B"
+    },
+    "45":{
+        "value":"Not give a monkey's.",
+        "alt":["give","monkey"],
+        "simultaneousAltNum": [1]
+    },    
+    "46":{
+        "value":"It looks a bit black over bill's mothers.",
+        "alt":["black","mothers"],
+        "simultaneousAltNum": [1]
+    },    
+    "47":{
+        "value":"Making a right pig's ear of something.",
+        "alt":["pig","ear"],
+        "simultaneousAltNum": [1]
+    },    
+    "48":{
+        "value":"You're pecking my head.",
+        "alt":["pecking","head"],
+        "simultaneousAltNum": [1]
     }
 }
